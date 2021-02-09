@@ -20,7 +20,7 @@ const LikeButton = () => {
 };
 
 const StyledSpanRed = styled.span`
-    color: red;
+    color: blue;
     margin-bottom: 12px;
     font-size: 15px;
     cursor: pointer;

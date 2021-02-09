@@ -12,7 +12,7 @@ const Home = props => {
         <Wrapper>
         <UserImage/>
         <StyledContainer>
-            <h2>Welcome {username} !</h2>
+            <h2>bienvenue  {username} ! sur TWITTER </h2>
             <Tweet></Tweet>
         </StyledContainer>
         </Wrapper>

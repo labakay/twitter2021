@@ -13,7 +13,7 @@ const Signin = ({submit}) => {
 
     return (
         <StyledWrapper>
-            <StyledP>TWITTER</StyledP>
+            <StyledP>TWITTER AFRICA</StyledP>
         
         <StyledForm onSubmit={(e) => submit(e, formState, setErrorMessage, history)}>
             
@@ -51,6 +51,7 @@ const StyledForm = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 `
 
 const SigninInput = styled.input`
@@ -60,7 +61,7 @@ const SigninInput = styled.input`
     height: 30px;
     padding: 0px 6px;
     color: white;
-    background-color: #1998e3;
+    background-color: black;
 `
 
 export default Signin;
